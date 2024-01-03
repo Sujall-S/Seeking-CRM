@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SEEKING-CRM</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }  
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+        background: url(res2.jpeg);
+        background-color: #ffffff;
+        background-position: center;
+        background-size:cover;
+        position: relative;
+    
+        
+      }
+    
+    
+    .main{
+        width: 100%;
+       
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .navbar{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+    }
+    
+    .icon{
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+    
+    .logo{
+        color: #000000;
+        font-size: 35px;
+        font-family: Arial;
+        padding-left: 20px;
+        float: left;
+        padding-top: 10px;
+        margin-top: 5px
+    }
+    
+    .menu{
+        width: 400px;
+        float: left;
+        height: 70px;
+    }
+    
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        list-style: none;
+        margin-left: 62px;
+        margin-top: 27px;
+        font-size: 14px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: #000000;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    
+    ul li a:hover{
+        color: #000000;
+    }
+    
+    .search{
+        width: 330px;
+        float: left;
+        margin-left: 270px;
+    }
+    
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #050a35;
+        margin-top: 13px;
+        color: #000000;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    
+    .btn{
+        width: 100px;
+        height: 40px;
+        background: #050a35;
+        border: 2px solid #070707;
+        margin-top: 13px;
+        color: #fff;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: #000;
+    }
+    
+    .btn:focus{
+        outline: none;
+    }
+    
+    .srch:focus{
+        outline: none;
+    }
+    .column {
+        float: inline-start;
+        width: 20%;
+        margin-top: 90px;
+        margin-left: 45px;
+        margin-bottom: 40px;
+        padding: 0 50px;
+      }
+      
+    
+      /* Add some shadows to create a card effect */
+      .card {
+        box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+      }
+      
+      /* Some left and right padding inside the container */
+      .container {
+        padding: 0 5px;
+      }
+      
+      /* Clear floats */
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: rgb(33, 3, 74);
+        font-size: 15px;
+      }
+      
+      .button {
+        border: none;
+        outline: 1;
+        display: inline-flex;
+        padding: 8px;
+        color: white;
+        background-color: #060606;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #272525;
+      }
+</style>
+
+
+<body>
+   
+    <section class="body">
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Seeking-CRM</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">CREATE NEW DATABASE</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        
+      
+  </div>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</section>
+</body>
+</html> 
